@@ -40,8 +40,11 @@ public class HospitalService {
 	@Autowired
 	private LocationService locationService;
 
+	/*Duplicated declaration
 	@Autowired
 	private LocationService locationService;
+	 */
+	
 	
 	public List<Hospital> findAll(){
 		return repo.findAll();
